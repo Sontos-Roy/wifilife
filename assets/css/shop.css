@@ -1,0 +1,396 @@
+.shop{
+    margin-top: 1rem;
+}
+.shop-filter-sidebar{
+    position: relative;
+}
+.shop-filter-sidebar .sidebar-box{
+    border: 1px solid;
+    border-color: navy;
+    padding: 10px;
+}
+.shop-filter-sidebar .category h5{
+    font-family: hind-semi;
+    color: rgb(80, 79, 79);
+    text-transform: uppercase;
+}
+.shop-filter-sidebar .category ul{
+    padding: 0;
+}
+.shop-filter-sidebar .category ul li{
+    list-style: none;
+    padding: 5px;
+}
+.shop-filter-sidebar .category ul li a{
+    color: gray;
+    display: block;
+    text-decoration: none;
+    transition: 00.5s;
+}
+.shop-filter-sidebar .category ul li a:hover{
+    color: navy;
+    text-decoration: none;
+
+}
+  
+  .filter-price {
+    width: 220px;
+    border: 0;
+    padding: 0;
+    margin: 0; 
+  }
+  
+  .price-title {
+    position: relative;
+    color: rgb(66, 66, 66);
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+  }
+  
+  .price-field {
+    position: relative;
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    background: transparent;
+    padding-top: 15px;
+    padding-left: 16px;
+    border-radius: 3px;
+  }
+  
+  .price-field input[type=range] {
+      position: absolute;
+  }
+  
+  /* Reset style for input range */
+  
+  .price-field input[type=range] {
+    width: 220px;
+    height: 5px; 
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    pointer-events: none;
+    -webkit-appearance: none;
+  }
+  
+  .price-field input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+  }
+  
+  .price-field input[type=range]:active,
+  .price-field input[type=range]:focus {
+    outline: 0;
+  }
+  
+  .price-field input[type=range]::-ms-track {
+    width: 188px;
+    height: 5px; 
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    pointer-events: none;
+    background: gray;
+    border-color: gray;
+    color: gray;
+    border-radius: 5px;
+  }
+  
+  /* Style toddler input range */
+  
+  .price-field input[type=range]::-webkit-slider-thumb { 
+    /* WebKit/Blink */
+      position: relative;
+      -webkit-appearance: none;
+      margin: 0;
+      border: 0;
+      outline: 0;
+      border-radius: 0;
+      height: 10px;
+      width: 5px;
+      margin-top: -4px;
+      background-color: navy;
+      cursor: pointer;
+      cursor: pointer;
+      pointer-events: all;
+      z-index: 100;
+  }
+  
+  .price-field input[type=range]::-moz-range-thumb { 
+    /* Firefox */
+    position: relative;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    height: 10px;
+    width: 5px;
+    margin-top: -4px;
+    background-color: navy;
+    cursor: pointer;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+  }
+  
+  .price-field input[type=range]::-ms-thumb  { 
+    /* IE */
+    position: relative;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    height: 10px;
+    width: 5px;
+    margin-top: -5px;
+    background-color: navy;
+    cursor: pointer;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+  }
+  
+  /* Style track input range */
+  
+  .price-field input[type=range]::-webkit-slider-runnable-track { 
+    /* WebKit/Blink */
+    width: 188px;
+    height: 2px;
+    cursor: pointer;
+    background: rgb(71, 71, 71);
+    border-radius: 5px;
+  }
+  
+  .price-field input[type=range]::-moz-range-track { 
+    /* Firefox */
+    width: 188px;
+    height: 2px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  .price-field input[type=range]::-ms-track { 
+    /* IE */
+    width: 188px;
+    height: 2px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Style for input value block */
+  
+  .price-wrap {
+    display: flex;
+    justify-content: center;
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+  
+  .price-wrap-1, 
+  .price-wrap-2 {
+    display: flex;
+  }
+  
+  .price-title {
+    margin-right: 5px;
+  }
+  
+  .price-wrap_line {
+    margin: 0 10px;
+  }
+  
+  .price-wrap #one, 
+  .price-wrap #two {
+    width: 35px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 2px;
+    background:  0;
+    border: 0;
+    outline: 0;
+    color: rgb(22, 22, 22);
+    font-family: 'Karla', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+  }
+  
+  .price-wrap label {
+    text-align: right;
+  }
+  
+  /* Style for active state input */
+      
+  .price-field input[type=range]:hover::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.5px rgb(87, 87, 87);
+    transition-duration: 0.3s;
+  }
+  
+  .price-field input[type=range]:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.5px rgb(121, 121, 121);
+    transition-duration: 0.3s;
+  }
+
+
+  .filter-by-color h5, .filter-by-size h5{
+    color: rgb(75, 75, 75);
+    font-family: hind-semi;
+    text-transform: uppercase;
+  }
+
+  .color-box{
+    max-height: 15rem;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .color-box{
+    max-height: 15rem;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .color-box::-webkit-scrollbar {
+    width: 5px;
+  }
+  .color-box::-webkit-scrollbar-track {
+    background: #e6e6e6; 
+  }
+  .color-box::-webkit-scrollbar-thumb {
+    background: rgb(177, 177, 177); 
+      border-radius:10px;
+  }
+  .color-box::-webkit-scrollbar-thumb:hover {
+    
+    background: rgb(133, 133, 133); 
+  } 
+
+  .color-box .color{
+    cursor: pointer;
+  }
+  .color-box .color .left .color-bg{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    margin-right: 10px;
+  }
+  .color-box .color .product-items{
+    height: 20px;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .color-box .color:hover .product-items{
+    background: navy;
+    border-color: navy;
+    color: white;
+  }
+  .color-box .color .product-items span{
+    padding: 5px;
+  }
+  .size-box{
+    max-height: 20rem;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .size-box .size{
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .size-box .size .product-items{
+    height: 20px;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .size-box .size:hover .product-items{
+    background: navy;
+    border-color: navy;
+    color: white;
+  }
+  .size-box .size .product-items span{
+    padding: 5px;
+  }
+
+  .all-products-widget .filter-dropdown{
+    background-color: #fff;
+    /* overflow-x: hidden; */
+
+  }
+  .all-products-widget .filter-dropdown .row{
+    border-left: 1px solid navy;
+    margin: 10px;
+  }
+  .all-products-widget .filter-dropdown .row .sort-by h5{
+    font-family: hind-semi;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+  .all-products-widget .filter-dropdown .row .price-filter h5{
+    font-family: hind-semi;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+  .all-products-widget .filter-dropdown .row .sort-by .nav-link{
+    color: gray !important;
+  }
+  .all-products-widget .filter-dropdown .row .sort-by .nav-link.active{
+    color: black !important;
+    font-weight: bold;
+  }
+  .all-products-widget .filter-dropdown .row .price-filter .nav-link{
+    color: gray !important;
+  }
+  .all-products-widget .filter-dropdown .row .price-filter .nav-link.active{
+    color: black !important;
+    font-weight: bold;
+  }
+  .all-products-widget .filter-dropdown .row .col-lg-4{
+    border-right: 1px solid navy;
+    border-top: 1px solid navy;
+    border-bottom: 1px solid navy;
+  }
+  
+
+  @media (min-width: 995px) {
+    .product{
+      width: 20%;
+    }
+  }
+  @media (max-width: 994px) {
+    .product{
+      width: 160px;
+    }
+    .all-products-widget .filter-dropdown .row .col-lg-4 *{
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 480px){
+    .product{
+      width: 33%;
+    }
+  }
+  @media (max-width: 400px){
+    .product{
+      width: 160px;
+    }
+  }
+  @media (max-width: 320px){
+    .product{
+      width: 50%;
+    }
+  }

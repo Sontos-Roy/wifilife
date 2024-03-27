@@ -1,0 +1,55 @@
+.product-slide .slick-prev:before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f104";
+    color:  rgb(82, 82, 82);
+    font-size: 30px;
+}
+
+.product-slide .slick-next:before {
+      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
+    color: rgb(82, 82, 82);
+    font-size: 30px;
+  }
+.product-slide .slick-next{
+    background: white;
+    box-shadow: -6px 0px 5px rgba(128, 128, 128, 0.459);
+    height: 80px;
+    width: 30px;
+    border-radius: 10px 0 0 10px;
+  }
+.product-slide .slick-prev{
+    background: white;
+    box-shadow: 6px 0px 5px rgba(128, 128, 128, 0.425);
+    height: 80px;
+    width: 30px;
+    border-radius: 0 10px 10px 0;
+  }
+  .sticky-cart{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1090;
+  }
+  .quantity-box .btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 0;
+  }
+  .quantity-box .quantity{
+    width: 60px;
+  }
+  .accordion-button{
+    color: black;
+  }
+  .accordion-button:not(.collapsed){
+    color: black;
+  }
+  .accordion-button:focus{
+    box-shadow: none;
+    color: black;
+  }
+  @media (max-width: 991px) {
+    .tab-content>.tab-pane {
+      display: block;
+      opacity: 1;
+    }
+  }
