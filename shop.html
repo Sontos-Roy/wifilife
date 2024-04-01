@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rokomari</title>
+    <title>Wafilife</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
@@ -20,7 +20,6 @@
     <div class="container m-fixed-bar d-lg-none d-md-block d-block">
         <div class="d-flex justify-content-between align-items-center pt-3 pb-1 pe-3">
             <button class="btn d-lg-none d-block toggler"><svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" aria-hidden="true" data-type="type-2">
-        
                 <rect y="0.00" width="18" height="1.7" rx="1"></rect>
                 <rect y="6.15" width="18" height="1.7" rx="1"></rect>
                 <rect y="12.3" width="18" height="1.7" rx="1"></rect>
@@ -32,206 +31,80 @@
             <div class="h-cart">
                 <a href="#" class="text-dark h-cart"><img src="assets/images/svg/cart.svg" alt="" width="35"><span class="badge bg-primary rounded-circle">12</span></a>
             </div>
-            
         </div>
     </div>
     <header class="bg-white">
         <div class="header-height">
-            <div class="header-box header-fixed">
+            <div class="header-box">
                 <div class="container pt-4">
                     <div class="d-flex justify-content-between navbar-flex ">
-                        <button class="btn d-lg-none d-block toggler"><svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" aria-hidden="true" data-type="type-2">
-        
-                            <rect y="0.00" width="18" height="1.7" rx="1"></rect>
-                            <rect y="6.15" width="18" height="1.7" rx="1"></rect>
-                            <rect y="12.3" width="18" height="1.7" rx="1"></rect>
-                        </svg></button>
-                        <a href="#" class="navbar-brand col-lg-2">
-                            <img src="assets/images/logo/rokomari_logo.png" alt="Logo" width="110">
-                        </a>   
+                        <a href="index.html" class="navbar-brand col-lg-2 flex-sm-fill">
+                            <img src="assets/images/logo/logo-v22.webp" alt="Logo" width="110">
+                        </a>
                         <div class="col-lg-7 col-md-12 col-12 search-col my-lg-0 my-md-4 my-4">
                             <div class="input-group justify-content-md-center">
-                                <input type="text" class="form-control col-12" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                                <input type="text" class="form-control col-12" placeholder="বইয়ের নাম ও লেখক দিয়ে অনুসন্ধান করুন" aria-label="Input group example" aria-describedby="btnGroupAddon">
                                 <div class="input-group-prepend">
-                                  <button class="input-group-text btn btn-info text-light" id="btnGroupAddon"><i class="fa fa-search"></i></button>
+                                  <button class="input-group-text btn btn-warning text-light" id="btnGroupAddon"><i class="fa fa-search"></i></button>
                                 </div>
                               </div> 
                         </div>
-                        <div class="col-lg-2 col-md-3 col-5 d-flex justify-content-between">
-                            <a href="#" class="text-dark h-cart"><img src="assets/images/svg/cart.svg" alt="" width="35"><span class="badge bg-primary rounded-circle">12</span></a>
-                
-                            <a href="#" class="sign-in-btn btn btn-outline btn-lg-lg btn-sm">Sign In</a>
+                        <div class="col-lg-2 col-md-3 col-5 d-lg-none d-flex justify-content-end align-items-center me-lg-3 me-0">
+                            <a href="#" class="btn btn-outline btn-lg-lg btn-sm text-nowrap"><i class="fas fa-sign-out-alt display-6"></i></a>|
+                            <a href="#" class="text-dark h-cart"><img src="assets/images/svg/cart.svg" alt="" width="30"><span class="badge bg-primary rounded-circle">12</span></a>
                         </div>
+                        <div class="col-lg-2 col-md-3 col-5 d-lg-flex d-none justify-content-end me-lg-3 me-0">
+                            <a href="#" class="btn btn-outline btn-lg-lg btn-sm text-nowrap font-12">উইশ লিস্ট </a>|
+                            <a href="#" class="btn btn-outline btn-lg-lg btn-sm text-nowrap font-12">লগইন / রেজিস্টার</a>
+                        </div>
+                        <button class="btn d-lg-none d-block toggler">
+                            <svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" aria-hidden="true" data-type="type-2">
+                            <rect y="0.00" width="18" height="1.7" rx="1"></rect>
+                            <rect y="6.15" width="18" height="1.7" rx="1"></rect>
+                            <rect y="12.3" width="18" height="1.7" rx="1"></rect>
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- TAB SECTION START  -->
-    <div class="tab-sec mt-4 d-lg-block d-md-none d-none">
-        <ul class="nav nav-tabs justify-content-center">
-            <li class="nav-item"><a href="#" class="nav-link active">Book</a>
-                
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">E-Book</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Electronics</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Monihari Products</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Kids Zone</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Gift Finder</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Industrial Order</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Offers</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Collection</a></li>
-          </ul>
-    </div>
-    <div class="container d-lg-block d-md-none d-none">
-        <div class="col-12">
-            <ul class="navbar d-flex justify-content-between submenu label-1 pb-0 mb-2">
-                <li class="nav-item"><a href="#" class="nav-link">Writer <i class="fas fa-angle-down"></i></a>
-                    <div class="label-2 d-flex justify-content-between">
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Subjects <i class="fas fa-angle-down"></i></a>
-                    <div class="label-2 d-flex justify-content-between">
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">subject</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Publications <i class="fas fa-angle-down"></i></a>
-                    <div class="label-2 d-flex justify-content-between">
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Publications</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                        <ul class="submenu">
-                            <li class="nav-item"><a href="#" class="nav-link">Humaun Ahmed</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Md. Jafar Iqbal</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Somresh Mojumder</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Robindranath Thakur</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shunil Gongopadhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Anisul Hauqe</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shirsendhu Mukkhopaddhay</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Sattajit Ray</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Stock Products</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Organic Food</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Clearence Sale</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Islamic Book</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">E-Book</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">Science Box</a>
-                </li>
-            </ul>
+        <hr class="p-0 m-0 mt-3">
+        <div class="m-fixed-bar2">
+            <div class="container d-lg-block d-md-none d-none">
+                <div class="col-12 menu-main">
+                    <ul class="navbar d-flex submenu justify-content-lg-start label-1 pb-0 mb-0 pt-0">
+                        <li class="nav-item image_logo_menu d-none" style="border: none;"><a href="index.html" class="navbar-brand col-lg-2 flex-sm-fill">
+                            <img src="assets/images/logo/logo-v22.webp" alt="Logo" width="110">
+                        </a>
+                        </li>
+                        <li class="nav-item"><a href="index.html" class="nav-link active">হোম</a>
+                        </li>
+                        <li class="nav-item"><a href="/shop.html" class="nav-link">বই</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">জেনারেল বই</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">আরবি বই</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">বিষয়</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">লেখক</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">প্রকাশক</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">বইমেলা ২০২৪</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">প্রি-অর্ডার</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">লাইফস্টাইল</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">স্টেশনারী</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">ব্লগ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
     <!-- TAB SECTION END -->
     </header> 
     <!-- header end -->
@@ -239,7 +112,7 @@
     <!-- sidebar Start  -->
     <div class="sidebar">
         <div class="d-flex bg-info justify-content-between align-items-center px-3">
-            <a href="index.html" class="text-light text-decoration-none"><i class="fas fa-home"></i> Home</a>
+            <a href="index.html" class="text-light text-decoration-none"><i class="fas fa-home"></i>Home</a>
             <button class="btn text-light dismiss"><i class="fas fas fa-times"></i></button>
         </div>
         <ul class="navbar-nav px-3">
@@ -255,400 +128,456 @@
         </ul>
     </div>
     <!-- sidebar end -->
+    <div class="cart-tab">
+        <a href="" title="View your shopping cart" class="cart_parent">
+        <i class="fa fa-shopping-cart"></i><br><span class="woocommerce-Price-amount amount">0&nbsp;<span class="woocommerce-Price-currencySymbol">৳</span></span>			
+        </a>
+    </div>
+    <div class="cart_sidebar">
+        <div class="d-flex bg-danger justify-content-between align-items-center px-3">
+            <a href="#" class="text-light text-decoration-none"><i class="fas fa-shopping-cart mx-3"></i>Cart</a>
+            <button class="btn text-light cart_dismiss"><i class="fas fas fa-times"></i></button>
+        </div>
+        <div class="widget_shopping_cart_content">
+            <div class="products px-4 mt-3">
+                <div class="product_item mb-3">
+                    <div class="d-flex align-item-center justify-content-between">
+                        <div class="image col-3">
+                            <img src="assets/images/products/1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <p class="mb-1">পূর্বাহ্ণ</p>
+                            <p class="mb-1">1 × <span class="text-danger">117 ৳</span></p>
+                        </div>
+                        <a href="#" class="btn text-danger"><i class="fas fas fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="product_item mb-3">
+                    <div class="d-flex align-item-center justify-content-between">
+                        <div class="image col-3">
+                            <img src="assets/images/products/1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <p class="mb-1">পূর্বাহ্ণ</p>
+                            <p class="mb-1">1 × <span class="text-danger">117 ৳</span></p>
+                        </div>
+                        <a href="#" class="btn text-danger"><i class="fas fas fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="product_item mb-3">
+                    <div class="d-flex align-item-center justify-content-between">
+                        <div class="image col-3">
+                            <img src="assets/images/products/1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <p class="mb-1">পূর্বাহ্ণ</p>
+                            <p class="mb-1">1 × <span class="text-danger">117 ৳</span></p>
+                        </div>
+                        <a href="#" class="btn text-danger"><i class="fas fas fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3 position-absolute bottom-0 w-100">
+                <hr>
+                <div class="price-box">
+                    <div class="d-flex justify-content-around">
+                        <span>মোট:</span>
+                        <div class="ms-3">
+                            <p class="mb-1"><del>260 ৳</del></p>
+                            <p class="text-danger font-17">
+                                117 ৳
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around gap-3 mb-3">
+                        <button class="btn btn-outline-danger border border-muted rounded-0 font-14">
+                            শপিং ব্যাগ
+                        </button>
+                        <button class="btn btn-outline-danger border border-muted rounded-0 font-14">
+                            অর্ডার করুন
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mt-3">
+                আপনার শপিং ব্যাগ এ কোনো পণ্য নেই
+            </p>
+        </div>
+    </div>
+    <!-- sidebar end -->
 
         <link rel="stylesheet" href="assets/css/shop.css">
         <section>
             <div class="container">
+                <h4 class="bold-7 my-4 text-secondary">বই</h4>
                 <div class="shop row">
-                    <div class="col-lg-3 col-md-5 col-10 shop-filter-sidebar d-none d-md-none d-lg-block">
-                        <div class="category mb-3 sidebar-box">
-                            <h5 class="text-cap">Product Categories</h5>
-                            <ul>
-                                <li><a href="#">Accessories</a></li>
-                                <li><a href="#">Blazer</a></li>
-                                <li><a href="#">Fb set</a></li>
-                                <li><a href="#">Flash Sale</a></li>
-                                <li><a href="#">Panjabi</a></li>
-                                <li><a href="#">Polo Shirt</a></li>
-                                <li><a href="#">Shirt</a></li>
-                                <li><a href="#">Shoes</a></li>
-                                <li><a href="#">Sweat Shirt</a></li>
-                                <li><a href="#">T-Shirt</a></li>
-                                <li><a href="#">Vaucher Card</a></li>
-                                <li><a href="#">Watches</a></li>
-                            </ul>
-                        </div>
-                        <div class="price-range sidebar-box mb-4">
-                            <div class="price-wrapper">
-                                <fieldset class="filter-price">
-                                 
-                                  <div class="price-field">
-                                    <input type="range"  min="0" max="2500" value="0" id="lower">
-                                    <input type="range" min="0" max="2500" value="2500" id="upper">
-                                  </div>
-                                   <div class="price-wrap">
-                                    <span class="price-title">FILTER</span>
-                                    <div class="price-wrap-1">
-                                      <input id="one" value="">
-                                      <label for="one"><b>৳</b></label>
+                    <div class="col-lg-3 col-md-5 col-12 shop-filter-sidebar">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button side_cat_header" type="button" data-bs-toggle="collapse" data-bs-target="#cat1" aria-expanded="true" aria-controls="cat1">
+                                        প্রকাশক
+                                    </button>
+                                </h2>
+                                <div id="cat1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pb-0">
+                                        <ul class="list-group-flush list-unstyled">
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                        </ul>
+                                        
                                     </div>
-                                    <div class="price-wrap_line">-</div>
-                                    <div class="price-wrap-2">
-                                      <input id="two" value="">
-                                      <label for="two"><b>৳</b></label>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button side_cat_header" type="button" data-bs-toggle="collapse" data-bs-target="#cat2" aria-expanded="true" aria-controls="cat2">
+                                        প্রকাশক
+                                    </button>
+                                </h2>
+                                <div id="cat2" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pb-0">
+                                        <ul class="list-group-flush list-unstyled">
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                        </ul>
+                                        
                                     </div>
-                                  </div>
-                                </fieldset> 
-                              </div>
-                        </div>
-
-                        <div class="sidebar-box filter-by-color mb-4">
-                            <h5 class="title text-cap">Filter By Color</h5>
-                            <div class="color-box">
-                                <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left d-flex">
-                                        <div class="color-bg" style="background-color: white;"></div>
-                                        <p>White</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button side_cat_header" type="button" data-bs-toggle="collapse" data-bs-target="#cat3" aria-expanded="true" aria-controls="cat3">
+                                        প্রকাশক
+                                    </button>
+                                </h2>
+                                <div id="cat3" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pb-0">
+                                        <ul class="list-group-flush list-unstyled">
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                        </ul>
+                                        
                                     </div>
-                                    <div class="product-items">
-                                        <span>3</span>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button side_cat_header" type="button" data-bs-toggle="collapse" data-bs-target="#cat4" aria-expanded="true" aria-controls="cat4">
+                                        প্রকাশক
+                                    </button>
+                                </h2>
+                                <div id="cat4" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pb-0">
+                                        <ul class="list-group-flush list-unstyled">
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                        </ul>
+                                        
                                     </div>
-                                </a>
-                                <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left d-flex">
-                                        <div class="color-bg" style="background-color: red;"></div>
-                                        <p>Red</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button side_cat_header" type="button" data-bs-toggle="collapse" data-bs-target="#cat5" aria-expanded="true" aria-controls="cat5">
+                                        প্রকাশক
+                                    </button>
+                                </h2>
+                                <div id="cat5" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pb-0">
+                                        <ul class="list-group-flush list-unstyled">
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                            <li class="nav-item mb-2">
+                                                <label class="font-12 bold-7 ">
+                                                    <input type="checkbox" class="me-2"> অক্ষরপত্র প্রকাশনী (119)
+                                                </label>
+                                            </li>
+                                        </ul>
+                                        
                                     </div>
-                                    <div class="product-items">
-                                        <span>5</span>
-                                    </div>
-                                </a>
-                                <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left d-flex">
-                                        <div class="color-bg" style="background-color: black;"></div>
-                                        <p>Black</p>
-                                    </div>
-                                    <div class="product-items">
-                                        <span>3</span>
-                                    </div>
-                                </a>
-                                <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left d-flex">
-                                        <div class="color-bg" style="background-color: gray;"></div>
-                                        <p>Gray</p>
-                                    </div>
-                                    <div class="product-items">
-                                        <span>3</span>
-                                    </div>
-                                </a>
-                                <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left d-flex">
-                                        <div class="color-bg" style="background-color: purple;"></div>
-                                        <p>Purple</p>
-                                    </div>
-                                    <div class="product-items">
-                                        <span>3</span>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="mb-3 filter-by-size sidebar-box">
-                            <h5 class="title text-cap">Filter By Size</h5>
-                            <div class="size-box">
-                                <a class="size d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left">
-                                        30
-                                    </div>
-                                    <div class="product-items">
-                                        <span>3</span>
-                                    </div>
-                                </a>
-                                <a class="size d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left">
-                                        32
-                                    </div>
-                                    <div class="product-items">
-                                        <span>5</span>
-                                    </div>
-                                </a>
-                                <a class="size d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left">
-                                        34
-                                    </div>
-                                    <div class="product-items">
-                                        <span>1</span>
-                                    </div>
-                                </a>
-                                <a class="size d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left">
-                                        36
-                                    </div>
-                                    <div class="product-items">
-                                        <span>6</span>
-                                    </div>
-                                </a>
-                                <a class="size d-flex justify-content-between text-decoration-none text-dark p-1">
-                                    <div class="left">
-                                        38
-                                    </div>
-                                    <div class="product-items">
-                                        <span>2</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                        
+                        
+                        
                     </div>
                     <div class="col-lg-9 col-md-12 col-12 all-products-widget">
                         <div class="filter-nav d-flex justify-content-between align-items-center border border-muted border-end-0 border-top-0 border-start-0">
                             <nav aria-label="breadcrumb" class="pt-2">
                                 <ol class="breadcrumb">
-                                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                                  <li class="breadcrumb-item active bold-7 font-12" aria-current="page">1 থেকে 40 দেখাচ্ছে। মোট 25013 টি আইটেম পাওয়া গিয়েছে</li>
                                 </ol>
                               </nav>
                             <nav class="navbar">
                                 
-                                <a href="#" class="nav-link me-3 ms-3 font-lg" id="filter">
-                                    <i class="fas fa-sliders-h"></i> Filter
-                                </a>
-                            </nav>
-                        </div>
-                        <div class="filter-dropdown">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-12 sort-by pb-3">
-                                    <h5>Sort By</h5>
-                                    <a href="#" class="nav-link text-dark pt-2 active">
-                                        Popularity
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        Average rating
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        Newness
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        Price: Low to High
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        Price: Hight to Low
-                                    </a>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-12 price-filter pb-3">
-                                    <h5>Price Filter</h5>
-                                    <a href="#" class="nav-link text-dark pt-2 active">
-                                        All
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        0.00৳  - 6,250.00৳ 
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        6,250.00৳  - 12,500.00৳ 
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        12,500.00৳  - 18,750.00৳ 
-                                    </a>
-                                    <a href="#" class="nav-link text-dark pt-2">
-                                        18,750.00৳  - 25,000.00৳ 
-                                    </a>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-12 color-box pb-3">
-                                    <h5 class="pt-2">Color Filter</h5>
-                                    <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                        <div class="left d-flex">
-                                            <div class="color-bg" style="background-color: white;"></div>
-                                            <p>White</p>
-                                        </div>
-                                        <div class="product-items">
-                                            <span>3</span>
-                                        </div>
-                                    </a>
-                                    <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                        <div class="left d-flex">
-                                            <div class="color-bg" style="background-color: red;"></div>
-                                            <p>Red</p>
-                                        </div>
-                                        <div class="product-items">
-                                            <span>5</span>
-                                        </div>
-                                    </a>
-                                    <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                        <div class="left d-flex">
-                                            <div class="color-bg" style="background-color: black;"></div>
-                                            <p>Black</p>
-                                        </div>
-                                        <div class="product-items">
-                                            <span>3</span>
-                                        </div>
-                                    </a>
-                                    <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                        <div class="left d-flex">
-                                            <div class="color-bg" style="background-color: gray;"></div>
-                                            <p>Gray</p>
-                                        </div>
-                                        <div class="product-items">
-                                            <span>3</span>
-                                        </div>
-                                    </a>
-                                    <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                        <div class="left d-flex">
-                                            <div class="color-bg" style="background-color: purple;"></div>
-                                            <p>Purple</p>
-                                        </div>
-                                        <div class="product-items">
-                                            <span>3</span>
-                                        </div>
-                                    </a>
-                                    <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                        <div class="left d-flex">
-                                            <div class="color-bg" style="background-color: purple;"></div>
-                                            <p>Purple</p>
-                                        </div>
-                                        <div class="product-items">
-                                            <span>3</span>
-                                        </div>
-                                    </a>
-                                    <a class="color d-flex justify-content-between text-decoration-none text-dark p-1">
-                                        <div class="left d-flex">
-                                            <div class="color-bg" style="background-color: purple;"></div>
-                                            <p>Purple</p>
-                                        </div>
-                                        <div class="product-items">
-                                            <span>3</span>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="mb-3 d-flex align-items-center gap-2">
+                                <label for="" class="form-label bold-9 mb-0 font-12 text-nowrap">সর্ট করুন</label>
+                                <select class="form-control form-control-sm">
+                                    <option value="sort_by_relevancy_desc" selected="">More relevant</option>
+                                    <option value="discount_asc">Discount - Low to High</option>
+                                    <option value="discount_desc">Discount - High to Low</option>
+                                    <option value="price_asc">Price - Low to High</option>
+                                    <option value="price_desc">Price - High to Low</option>
+                                </select>
                             </div>
+                            
+                            </nav>
                         </div>
                     
                         <!-- All Products  -->
-                        <div class="all-products row justify-content-between">
-                            <div class="product col-lg-2 col-md-3 col-6 px-3 py-3">
-                                <div class="image">
-                                    <img src="assets/images/products/c27bb6ee76c4_1202.gif" alt="">
-                                    <div class="look-inside-badge"></div>
-                                    <a href="#" title="Nill Hati" class="text-decoration-none text-dark">
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
+                        <div class="all-products row">
+                            <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                <div class="product">
+                                    <a href="product.html" title="Nill Hati" class="text-decoration-none">
+                                        <div class="product_label" style="display: block !important;">
+                                            <span class="onsale text_lebel product_label" style="display: block !important; text-transform: unset; "> 45% 
+                                                <br>ছাড়
+                                            </span>
                                         </div>
-                                    </a>
-                                    </div>
-                                    <div class="text-area text-center pt-2">
-                                        <h5 class="book-title m-0 p-0"><b>Nill Hati</b></h5>
-                                        <p class="book-author m-0 p-0 d-none d-md-none d-lg-block">Humaun Ahmend</p>
-                                        <h5 class="bold-7 m-0 p-0 p-price"><del>TK.135 </del><span class="ps-2">TK.116</span></h5>
-                                    </div>
-                                    <a href="#" title="Nill Hati">
-                                        <div class="p-overlay">
-                                            <button class="btn btn-info text-light rounded-0 col-12">View Details</button>
+                                        <div class="image">
+                                            <img src="assets/images/products/product.webp" alt="">
+                                            </div>
+                                            <div class="text-area pt-2">
+                                            <p class="book-title mb-2 p-0 bold-7 font-12 text-dark">বানান নিয়ে নানান কথা</p>
+                                            <p class="book-author mb-2 p-0 font-14 text-secondary">ডা. সায়মা সাজ্জাদ</p>
+                                            <p class="m-0 p-0 p-price"><del class="text-muted">TK.135 </del><span class="ps-2 text-danger">TK.116</span></p>
                                         </div>
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
-                                        </div>
-                                    </a>
+                                        </a>
+                                </div>
                             </div>
-                            <div class="product col-lg-2 col-md-3 col-6 px-3 py-3">
-                                <div class="image">
-                                    <img src="assets/images/products/c27bb6ee76c4_1202.gif" alt="">
-                                    <div class="look-inside-badge"></div>
-                                    <a href="#" title="Nill Hati" class="text-decoration-none text-dark">
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
+                            <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                <div class="product">
+                                    <a href="product.html" title="Nill Hati" class="text-decoration-none">
+                                        <div class="product_label" style="display: block !important;">
+                                            <span class="onsale text_lebel product_label" style="display: block !important; text-transform: unset; "> 45% 
+                                                <br>ছাড়
+                                            </span>
                                         </div>
-                                    </a>
-                                    </div>
-                                    <div class="text-area text-center pt-2">
-                                        <h5 class="book-title m-0 p-0"><b>Nill Hati</b></h5>
-                                        <p class="book-author m-0 p-0 d-none d-md-none d-lg-block">Humaun Ahmend</p>
-                                        <h5 class="bold-7 m-0 p-0 p-price"><del>TK.135 </del><span class="ps-2">TK.116</span></h5>
-                                    </div>
-                                    <a href="#" title="Nill Hati">
-                                        <div class="p-overlay">
-                                            <button class="btn btn-info text-light rounded-0 col-12">View Details</button>
+                                        <div class="image">
+                                            <img src="assets/images/products/product.webp" alt="">
+                                            </div>
+                                            <div class="text-area pt-2">
+                                            <p class="book-title mb-2 p-0 bold-7 font-12 text-dark">বানান নিয়ে নানান কথা</p>
+                                            <p class="book-author mb-2 p-0 font-14 text-secondary">ডা. সায়মা সাজ্জাদ</p>
+                                            <p class="m-0 p-0 p-price"><del class="text-muted">TK.135 </del><span class="ps-2 text-danger">TK.116</span></p>
                                         </div>
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
-                                        </div>
-                                    </a>
+                                        </a>
+                                </div>
                             </div>
-                            <div class="product col-lg-2 col-md-3 col-6 px-3 py-3">
-                                <div class="image">
-                                    <img src="assets/images/products/c27bb6ee76c4_1202.gif" alt="">
-                                    <div class="look-inside-badge"></div>
-                                    <a href="#" title="Nill Hati" class="text-decoration-none text-dark">
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
+                            <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                <div class="product">
+                                    <a href="product.html" title="Nill Hati" class="text-decoration-none">
+                                        <div class="product_label" style="display: block !important;">
+                                            <span class="onsale text_lebel product_label" style="display: block !important; text-transform: unset; "> 45% 
+                                                <br>ছাড়
+                                            </span>
                                         </div>
-                                    </a>
-                                    </div>
-                                    <div class="text-area text-center pt-2">
-                                        <h5 class="book-title m-0 p-0"><b>Nill Hati</b></h5>
-                                        <p class="book-author m-0 p-0 d-none d-md-none d-lg-block">Humaun Ahmend</p>
-                                        <h5 class="bold-7 m-0 p-0 p-price"><del>TK.135 </del><span class="ps-2">TK.116</span></h5>
-                                    </div>
-                                    <a href="#" title="Nill Hati">
-                                        <div class="p-overlay">
-                                            <button class="btn btn-info text-light rounded-0 col-12">View Details</button>
+                                        <div class="image">
+                                            <img src="assets/images/products/product.webp" alt="">
+                                            </div>
+                                            <div class="text-area pt-2">
+                                            <p class="book-title mb-2 p-0 bold-7 font-12 text-dark">বানান নিয়ে নানান কথা</p>
+                                            <p class="book-author mb-2 p-0 font-14 text-secondary">ডা. সায়মা সাজ্জাদ</p>
+                                            <p class="m-0 p-0 p-price"><del class="text-muted">TK.135 </del><span class="ps-2 text-danger">TK.116</span></p>
                                         </div>
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
-                                        </div>
-                                    </a>
+                                        </a>
+                                </div>
                             </div>
-                            <div class="product col-lg-2 col-md-3 col-6 px-3 py-3">
-                                <div class="image">
-                                    <img src="assets/images/products/c27bb6ee76c4_1202.gif" alt="">
-                                    <div class="look-inside-badge"></div>
-                                    <a href="#" title="Nill Hati" class="text-decoration-none text-dark">
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
+                            <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                <div class="product">
+                                    <a href="product.html" title="Nill Hati" class="text-decoration-none">
+                                        <div class="product_label" style="display: block !important;">
+                                            <span class="onsale text_lebel product_label" style="display: block !important; text-transform: unset; "> 45% 
+                                                <br>ছাড়
+                                            </span>
                                         </div>
-                                    </a>
-                                    </div>
-                                    <div class="text-area text-center pt-2">
-                                        <h5 class="book-title m-0 p-0"><b>Nill Hati</b></h5>
-                                        <p class="book-author m-0 p-0 d-none d-md-none d-lg-block">Humaun Ahmend</p>
-                                        <h5 class="bold-7 m-0 p-0 p-price"><del>TK.135 </del><span class="ps-2">TK.116</span></h5>
-                                    </div>
-                                    <a href="#" title="Nill Hati">
-                                        <div class="p-overlay">
-                                            <button class="btn btn-info text-light rounded-0 col-12">View Details</button>
+                                        <div class="image">
+                                            <img src="assets/images/products/product.webp" alt="">
+                                            </div>
+                                            <div class="text-area pt-2">
+                                            <p class="book-title mb-2 p-0 bold-7 font-12 text-dark">বানান নিয়ে নানান কথা</p>
+                                            <p class="book-author mb-2 p-0 font-14 text-secondary">ডা. সায়মা সাজ্জাদ</p>
+                                            <p class="m-0 p-0 p-price"><del class="text-muted">TK.135 </del><span class="ps-2 text-danger">TK.116</span></p>
                                         </div>
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
-                                        </div>
-                                    </a>
+                                        </a>
+                                </div>
                             </div>
-                            <div class="product col-lg-2 col-md-3 col-6 px-3 py-3">
-                                <div class="image">
-                                    <img src="assets/images/products/c27bb6ee76c4_1202.gif" alt="">
-                                    <div class="look-inside-badge"></div>
-                                    <a href="#" title="Nill Hati" class="text-decoration-none text-dark">
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
+                            <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                <div class="product">
+                                    <a href="product.html" title="Nill Hati" class="text-decoration-none">
+                                        <div class="product_label" style="display: block !important;">
+                                            <span class="onsale text_lebel product_label" style="display: block !important; text-transform: unset; "> 45% 
+                                                <br>ছাড়
+                                            </span>
                                         </div>
-                                    </a>
-                                    </div>
-                                    <div class="text-area text-center pt-2">
-                                        <h5 class="book-title m-0 p-0"><b>Nill Hati</b></h5>
-                                        <p class="book-author m-0 p-0 d-none d-md-none d-lg-block">Humaun Ahmend</p>
-                                        <h5 class="bold-7 m-0 p-0 p-price"><del>TK.135 </del><span class="ps-2">TK.116</span></h5>
-                                    </div>
-                                    <a href="#" title="Nill Hati">
-                                        <div class="p-overlay">
-                                            <button class="btn btn-info text-light rounded-0 col-12">View Details</button>
+                                        <div class="image">
+                                            <img src="assets/images/products/product.webp" alt="">
+                                            </div>
+                                            <div class="text-area pt-2">
+                                            <p class="book-title mb-2 p-0 bold-7 font-12 text-dark">বানান নিয়ে নানান কথা</p>
+                                            <p class="book-author mb-2 p-0 font-14 text-secondary">ডা. সায়মা সাজ্জাদ</p>
+                                            <p class="m-0 p-0 p-price"><del class="text-muted">TK.135 </del><span class="ps-2 text-danger">TK.116</span></p>
                                         </div>
-                                        <div class="cart-btn">
-                                            <button class="btn btn-info">Add To Cart</button>
-                                        </div>
-                                    </a>
+                                        </a>
+                                </div>
                             </div>
-                            
+                            <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                <div class="product">
+                                    <a href="product.html" title="Nill Hati" class="text-decoration-none">
+                                        <div class="product_label" style="display: block !important;">
+                                            <span class="onsale text_lebel product_label" style="display: block !important; text-transform: unset; "> 45% 
+                                                <br>ছাড়
+                                            </span>
+                                        </div>
+                                        <div class="image">
+                                            <img src="assets/images/products/product.webp" alt="">
+                                            </div>
+                                            <div class="text-area pt-2">
+                                            <p class="book-title mb-2 p-0 bold-7 font-12 text-dark">বানান নিয়ে নানান কথা</p>
+                                            <p class="book-author mb-2 p-0 font-14 text-secondary">ডা. সায়মা সাজ্জাদ</p>
+                                            <p class="m-0 p-0 p-price"><del class="text-muted">TK.135 </del><span class="ps-2 text-danger">TK.116</span></p>
+                                        </div>
+                                        </a>
+                                </div>
+                            </div>
                         </div>
-
-                        <!-- All Products  -->
-
-
-
                     </div>
                 </div>
             </div>
@@ -657,153 +586,78 @@
 
 
 
-        <footer class="mt-3 bg-white">
+        <footer class="mt-3 bg-white1">
             <div class="container">
-              <div class="row pt-lg-4 pt-3">
-                <div class="col-lg-4 col-12 text-center footer-logo">
-                  <img src="assets/images/logo/rokomari_logo.png" alt="Logo" />
-                  <hr class="border border-muted" />
-                  <div class="d-flex align-items-center">
-                    <h2 class="icon">
-                      <h3 class="far fa-building text-muted"></h3>
-                    </h2>
-                    <div class="text-div text-start ps-3">
-                      <h6 class="p-0 line">
-                        Corporate Sales :
-                        <span class="bold-7">sales@rokomari.com</span>
-                        <small class="d-block">(Only for corporate order)</small>
-                      </h6>
+                <div class="row pt-lg-4 pt-3">
+                    <div class="col-lg-4 col-12 footer_1top footer-logo">
+                        <img src="assets/images/wafi-bangla-logo.webp" alt="Logo">
+                        <p class="footer_p">Wafilife is a leading book shop in Bangladesh. We offer thousands of islamic, 
+                            general and academic books at a discounted price. We provide good
+                             packaging with low shipping cost all over the Bangladesh</p>
+                        <div class="d-flex align-items-center">
+                            
+                            <div class="text-div text-start">
+                                <h6 class="p-0 line_1"> অ্যাপ ডাউনলোড করুন </h6>
+                                
+                            </div>
+                        </div>
+                        
+    
+                        
                     </div>
-                  </div>
-                  <div class="d-flex align-items-center">
-                    <h2 class="icon">
-                      <h3 class="far fa-envelope text-muted"></h3>
-                    </h2>
-                    <div class="text-div text-start ps-3">
-                      <h6 class="p-0 line">
-                        E-mail : <span class="bold-7">admin@rokomari.com</span>
-                      </h6>
+                    <div class="col-lg-3 col-12 mt-3 d-lg-block d-md-none d-none">
+                        <h5 class="bold-7 font-17 h_color ps-3">প্রয়োজনীয় লিংক</h5>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">যোগাযোগ করুন</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">ব্লগ</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">শপিং ব্যাগ</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">প্রশ্নোত্তর</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">কিভাবে কেনাকাটা করবেন ?</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">শর্তাবলী</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">রিফান্ড নীতিমালা</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">প্রাইভেসী পলিসি</a></li>
+                        </ul>
                     </div>
-                  </div>
-                  <div class="d-flex align-items-center">
-                    <h2 class="icon">
-                      <h3 class="fas fa-home text-muted"></h3>
-                    </h2>
-                    <div class="text-div text-start ps-3">
-                      <h6 class="p-0 line">
-                        Address :
-                        <span
-                          >2/1/E, Eden Center, Arambag, Motijheel, Dhaka-1000</span
-                        >
-                      </h6>
+                    <div class="col-lg-3 col-12 mt-3 d-lg-block d-md-none d-none">
+                        <h5 class="bold-7 h_color ps-3">জনপ্রিয়</h5>
+                        <ul>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">আপনার পছন্দের তালিকা</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">জেনারেল ও অ্যাকাডেমিক বই</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর এর বই</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">আরিফ আজাদ এর বই</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">প্রি-অর্ডার</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">প্যাকেজ</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark1 a line-2">ইলেকট্রনিক্স</a></li>
+                            
+                        </ul>
                     </div>
-                  </div>
+                    <div class="col-lg-2 col-12 mt-3">
+                        <h5 class="bold-7 h_color mb-3">যোগাযোগ</h5>
+                        
+                           <p class="footer_p">Head Office:
+                            House 310, Road 21
+                            Mohakhali DOHS, Dhaka-1206</p>
+                            <p class="footer_p">Phone: <br>
+                                <span class="text-dark1 a">096-7877-1365</span></p>
+                            <p class="footer_p">sales@wafilife.com</p>
+                            
+                        
+                        <div class="d-flex">
+                            <a href="" class="btn btn-outline-info me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" class="btn btn-outline-info me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="" class="btn btn-outline-info me-2"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="" class="btn btn-outline-info me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="" class="btn btn-outline-info me-2"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-2 col-12 mt-3 d-lg-block d-md-none d-none">
-                  <h5 class="bold-7 ps-3">Home</h5>
-                  <ul>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Books</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Electronics</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Accessories</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Gift Card</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Stationery</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-2 col-12 mt-3 d-lg-block d-md-none d-none">
-                  <h5 class="bold-7 ps-3">Categories</h5>
-                  <ul>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Books</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Electronics</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Accessories</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Gift Card</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="text-decoration-none text-dark line"
-                        >Stationery</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-4 col-12 mt-3">
-                  <h5 class="bold-7 mb-3">Stay Connected</h5>
-                  <div class="d-flex">
-                    <a href="" class="btn btn-outline-info me-2"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a href="" class="btn btn-outline-info me-2"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a href="" class="btn btn-outline-info me-2"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                    <a href="" class="btn btn-outline-info me-2"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a href="" class="btn btn-outline-info me-2"
-                      ><i class="fab fa-youtube"></i
-                    ></a>
-                  </div>
-                  <div class="mb-3 mt-3">
-                    <label for="" class="form-label">E-mail</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      name=""
-                      id=""
-                      aria-describedby="helpId"
-                      placeholder=""
-                    />
-                    <small id="helpId" class="form-text text-muted"
-                      >Help text</small
-                    >
-                    <br />
-                    <button class="btn btn-danger rounded-0">Subscribe</button>
-                  </div>
-                </div>
-              </div>
             </div>
             <div class="container-fluid">
-              <hr />
-              <p class="text-center m-0">
-                &copy; Copyright 2023 | Developed by SoftIT
-              </p>
+                <hr>
+                <p class="text-center m-0">&copy; Copyright 2023 | Developed by SoftIT</p>
             </div>
-          </footer>
+        </footer>
+    
         </div>
     
         <script src="assets/js/jquery.min.js"></script>
