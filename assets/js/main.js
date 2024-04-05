@@ -131,7 +131,41 @@ $(document).ready(function(){
     $('.filter-dropdown').slideToggle();
   })
 })
-
+$(document).ready(function(){
+  $('.rating-stars .star').on('mouseover', function(){
+    var onStar = parseInt($(this).data('value'), 10);
+    $(this).parent().children('.star').each(function(e){
+      if (e < onStar) {
+        $(this).addClass('hover');
+      }
+      else {
+        $(this).removeClass('hover');
+      }
+    });
+  }).on('mouseout', function(){
+    $(this).parent().children('.star').removeClass('hover');
+  });
+  
+  $('.rating-stars .star').on('click', function(){
+    var onStar = parseInt($(this).data('value'), 10);
+    var stars = $(this).parent().children('.star');
+    for (var i = 0; i < stars.length; i++) {
+      $(stars[i]).removeClass('selected');
+    }
+    for (var i = 0; i < onStar; i++) {
+      $(stars[i]).addClass('selected');
+    }
+    var ratingValue = parseInt($('.rating-stars .star.selected').last().data('value'), 10);
+    $('#ratingValue').val(ratingValue);
+  });
+});
+$(document).ready(function(){
+  $('.review_submit_show').click(function(e){
+    e.preventDefault();
+    $('.review_box').removeClass('d-none');
+    $(this).addClass('d-none');
+  })
+})
 const myPanzoom = new Panzoom(document.querySelector(".panzoom"), {
   minScale: 1,
   maxScale: 2
